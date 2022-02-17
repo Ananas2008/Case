@@ -1,0 +1,253 @@
+
+*{
+  padding: 0px;
+  margin:0px;
+}
+header{
+  border-bottom: 2px solid black;
+	min-width: 100%;
+  max-width: 200px;
+	height: 170px;
+  background:#f1f1f1  ;
+  }
+
+  .Student{
+    margin-bottom: 2px;
+    border:2px solid black;
+    height: 120px;
+    width:95px;
+    margin-left:5px;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    background-color: #666;
+
+  }
+
+  .Student a{
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 5px 5px 5px 5px;
+  background-color: white;
+  text-decoration: none;
+  color:black;
+  }
+
+  header H1{
+   text-align: center;
+  }
+
+  .img{
+    margin-top: 2px;
+    height: 90px;
+    width:95px;
+    border-radius: 30px 30px 30px 30px;
+
+  }
+
+  main{
+    width: 100%;
+  }
+
+  body{
+    background-color:rgba(0, 110, 255, 0.638);
+  }
+
+  .block_1 {
+    padding-top: 50px;
+    margin-right: 60px;
+    padding: 10px;
+    width: 25%;
+    height: 250px;
+    float: left;
+    top: 200px;
+    border: 1px solid black;
+    background-color: #f1f1f1;
+    margin-left: 120px;
+
+  }
+
+    .block_2 {
+      margin-right: 60px;
+      padding: 10px;
+      width: 25%;
+      height: 250px;
+      float: left;
+      top: 200px;
+      border: 1px solid black;
+      background-color: #f1f1f1;
+    }
+
+      .block_3 {
+        margin-right: 60px;
+        padding: 10px;
+        width: 25%;
+        height: 250px;
+        float: left;
+        top: 200px;
+        border: 1px solid black;
+        background-color: #f1f1f1;
+      }
+
+        .block_4 {
+          margin-right: 60px;
+          padding: 10px;
+          width: 25%;
+          height: 250px;
+          float: left;
+          top: 200px;
+          border: 1px solid black;
+          background-color: #f1f1f1;
+          margin-left: 120px;
+        }
+
+          .block_5 {
+            margin-right: 60px;
+            padding: 10px;
+            width: 25%;
+            height: 250px;
+            float: left;
+            top: 200px;
+            border: 1px solid black;
+            background-color: #f1f1f1;
+           }
+
+           .block_6 {
+            margin-right: 60px;
+            padding: 10px;
+            width: 25%;
+            height: 250px;
+            float: left;
+            top: 200px;
+            border: 1px solid black;
+            background-color: #f1f1f1;
+          }
+    .Days_1{
+      margin-top: 27px;
+      width: 100%;
+      height: 272px;
+      
+    }
+    .Days_2{
+      margin-top: 27px;
+      width: 100%;
+      height: 272px;
+    }
+
+    /*Подвал*/
+footer {
+  margin-top: 50px;
+    display: flex;
+    border-top: solid 1px black;
+    justify-content: center;
+    height: 150px;
+    border-radius:10px;
+    min-width: 200px;
+    max-width: 100%;
+    padding: 5px;
+    background-color:#f1f1f1;
+    color: rgb(0, 0, 0);
+  }
+
+    @media (min-width: 375px) and (max-width: 812px) {
+
+    .block_1 {
+      padding-top: 0px;
+      margin-bottom: 20px;
+      margin-left: 35px;
+      width: 75%;
+      height: 200px;
+      top: 200px;
+      border: 1px solid black;
+      background-color: #deb887 ;
+  
+  
+    }
+  
+      .block_2 {
+        padding-top: 0px;
+        margin-bottom: 20px;
+        margin-left: 35px;
+        width: 75%;
+        height: 200px;
+        top: 200px;
+        border: 1px solid black;
+        background-color: #deb887 ;
+      }
+  
+        .block_3 {
+          padding-top: 0px;
+          margin-bottom: 20px;
+          margin-left: 35px;
+          width: 75%;
+          height: 200px;
+          top: 200px;
+          border: 1px solid black;
+          background-color: #deb887 ;
+        }
+  
+          .block_4 {
+            padding-top: 0px;
+            margin-bottom: 20px;
+            margin-left: 35px;
+            width: 75%;
+            height: 200px;
+            top: 200px;
+            border: 1px solid black;
+            background-color: #deb887 ;
+  
+          }
+  
+            .block_5 {
+              padding-top: 0px;
+              margin-bottom: 20px;
+              margin-left: 35px;
+              width: 75%;
+              height: 200px;
+              top: 200px;
+              border: 1px solid black;
+              background-color: #deb887 ;
+             }
+  
+             .block_6 {
+               padding-top: 0px;
+               margin-bottom: 20px;
+               margin-left: 35px;
+               width: 75%;
+               height: 200px;
+               top: 200px;
+               border: 1px solid black;
+               background-color: #deb887 ;
+            }
+  
+            .Days_1{
+              margin-top: 0px;
+              width: 100%;
+              height: 100%;
+  
+            }
+            .Days_2{
+              margin-top: 0px;
+              width: 100%;
+              height: 100%;
+            }
+
+            .img{
+              margin-top: 2px;
+              height: 70px;
+              width:75px;
+              border-radius: 30px 30px 30px 30px;
+          
+            }
+
+            .Student{
+              margin-bottom: 2px;
+              border:2px solid black;
+              height: 100px;
+              width:80px;
+              margin-left:5px;
+              border-radius: 30px 30px 30px 30px;
+              text-align: center;
+              background-color: #666;
+          
+            }
+          }

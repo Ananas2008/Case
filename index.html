@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Css/Main.css">
+    <link rel="stylesheet" href="Css/reg.css">
+    <script src="reg.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Школьный портал</title>
+</head>
+<body>
+
+<header>
+  <div class = "title">Школьный портал</div>
+  <!--Кнопка-->
+    <a href="#" class="Button">Войти</a>
+    <div class="pop_up hidden">
+    <div class="Pop_up_conteiner">
+              <div class="pop_up_body ">
+             
+        <div class="close">X</div>
+</header>
+    <!---Навигация-->
+    <ul id="navbar">
+      <li><a href="student.html">Профиль</a></li>
+      <li><a href="#">Опции</a>
+        <ul>
+          <li><a href="#">Достижения</a></li>
+          <li><a href="#">Рассписание</a></li>
+          <li><a href="#"></a></li>
+        </ul>
+      <li><a href="#">Авторизация</a>
+        <ul>
+          <li><a href="#"></a></li>
+         
+        </ul>
+      <li><a href="#">Мироприятия</a></li>
+    </ul>
+
+
+
+<!--Блоки-->
+
+     <br>
+     <main>
+      <div class="Razdel">
+        <div class="block_1"></div>
+        <div class="block_2"></div>
+        <div class="block_3"></div>
+      </div>
+      <div class="Razdel_1">
+        <div class="block_4"></div>
+        <div class="block_5"></div>
+        <div class="block_6"></div>
+      </div>
+    </main>
+        
+        
+      
+        
+        <script>var popup = document.querySelector(".pop_up");
+            var btn = document.querySelector(".Button");
+            var close = document.querySelector(".close");
+
+            btn.addEventListener("click", function(event){
+                event.preventDefault();
+                popup.classList.remove("hidden");
+            });
+
+            popup.addEventListener("click", function(event) {
+              e = event || window.event
+              if (e.target == this) {
+                popup.classList.add("hidden");
+              }
+            });
+
+            close.addEventListener("click", function(event){
+                event.preventDefault();
+                popup.classList.add("hidden");
+            });
+</script>
+     
+<!--Подвал-->
+    <footer>
+            <p>© 2022 Школьный портал</p>
+    </footer>
+</body>
+</html>
